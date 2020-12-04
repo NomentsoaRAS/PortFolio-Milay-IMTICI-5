@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+}
+
+.head__custom-nav{
+    .navbar-brand{
+        span{
+            font-weight: 700;
+            font-size: 22px;
+            margin-left: 10px;
+        }
+    }
+
+    button{
+        padding: 0;
+        span{
+            img{
+                width: 45px; 
+            }
+        }
+    }
+
+    #navbarNav{
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    color: #000;
+                    font-weight: 400;
+                    padding: 8px 15px;
+                    white-space: nowrap;
+                    transition: .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+                    &:hover{
+                        color: lightcoral;
+                    }
+                }
+            }
+        }
+    }
+}
